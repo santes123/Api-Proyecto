@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.Activities.GameActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/hospital">
+
+        <RadioGroup
+            android:id="@+id/rg_opciones_satisfaccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_btn"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp">
+
+        </RadioGroup>
+        <RelativeLayout
+            android:id="@+id/rl_btn"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:layout_below="@+id/tv_pregunta"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp">
+
+            <ProgressBar
+                android:id="@+id/PbSelector"
+                style="@style/CustomProgressBar"
+                android:maxHeight="40dp"
+                android:maxWidth="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/verde"
+                android:indeterminate="false"
+                android:max="110"
+                android:progress="0"
+                android:progressDrawable="@drawable/custom_progress_bar_horizontal" />
+
+            <TextView
+                android:id="@+id/tv_porcentaje"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/PbSelector"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="#00000000"
+                android:textAlignment="center">
+
+            </TextView>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_pregunta"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_titulo"
+            android:layout_marginTop="10dp"
+            android:background="@color/azul_oscuro"
+            android:editable="true"
+            android:enabled="true"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_pregunta"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Enviar"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#69F0AE"
+            android:gravity="center"
+            android:text="Next"
+            android:layout_above="@+id/btn_enviar"
+            android:layout_alignStart="@+id/rg_opciones_satisfaccion" />
+
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/img_fondo" />
+
+    </RelativeLayout>
+
+</LinearLayout>

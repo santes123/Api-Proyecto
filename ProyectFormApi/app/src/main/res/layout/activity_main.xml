@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hospital">
+
+        <ImageButton
+            android:id="@+id/btn_achievement"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btn_play"
+            android:layout_alignEnd="@+id/btn_play"
+            android:layout_marginBottom="71dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/images1" />
+
+        <ImageButton
+            android:id="@+id/btn_settings"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/btn_play"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            app:srcCompat="@drawable/images2" />
+
+        <ImageButton
+            android:id="@+id/btn_learn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/btn_settings"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="83dp"
+            android:layout_marginStart="33dp"
+            app:srcCompat="@drawable/images1" />
+
+        <ImageButton
+            android:id="@+id/btn_leaderboard"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btn_play"
+            android:layout_marginEnd="25dp"
+            app:srcCompat="@drawable/images2" />
+
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignTop="@+id/btn_learn"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/images3" />
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/img_fondo" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/app_title"
+            android:textSize="25dp"
+            android:background="@color/azul_oscuro"/>
+    </RelativeLayout>
+</LinearLayout>

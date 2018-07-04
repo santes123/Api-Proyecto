@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.Activities.GameActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <ImageButton
+            android:id="@+id/ic_launcher"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btn_answer_1"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/boton_optimizado_final"
+            android:editable="true"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/btn_answer_2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_answer_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/boton_optimizado_final"
+            android:editable="true"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/btn_answer_3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_answer_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/boton_optimizado_final"
+            android:editable="true"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/btn_answer_4"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_answer_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/boton_optimizado_final"
+            android:editable="true"
+            android:enabled="true" />
+
+        <TextView
+            android:id="@+id/tv_pregunta"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_marginTop="46dp"
+            android:background="@color/azul"
+            android:editable="true"
+            android:enabled="true"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:maxLines="3"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_pregunta"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:text="Formulario"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Enviar"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</LinearLayout>
