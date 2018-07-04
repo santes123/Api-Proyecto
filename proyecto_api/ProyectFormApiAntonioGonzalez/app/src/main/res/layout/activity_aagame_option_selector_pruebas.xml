@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.Activities.Formulario1.Fragments.fragment_text.GameActivityText"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+
+        </TableLayout>
+
+
+        <ImageButton
+            android:id="@+id/ic_launcher"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_pregunta"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_marginTop="46dp"
+            android:background="@color/azul"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tv_pregunta"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:text="Formulario"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Enviar"
+            android:visibility="invisible" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rad1"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/btn_enviar"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="14dp"
+            android:layout_toEndOf="@+id/tableLayout"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:drawablePadding="30dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="Button1"
+            android:textSize="13px" />
+
+        <RadioButton
+            android:id="@+id/rad2"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/rad1"
+            android:layout_alignBottom="@+id/rad1"
+            android:layout_toEndOf="@+id/rad1"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:drawablePadding="30dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="Button1"
+            android:textSize="13px" />
+
+        <RadioButton
+            android:id="@+id/rad3"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/rad2"
+            android:layout_alignBottom="@+id/rad2"
+            android:layout_toEndOf="@+id/rad2"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:drawablePadding="30dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="Button1"
+            android:textSize="13px" />
+
+        <RadioButton
+            android:id="@+id/rad4"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/rad3"
+            android:layout_alignBottom="@+id/rad3"
+            android:layout_toEndOf="@+id/rad3"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:drawablePadding="30dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="Button1"
+            android:textSize="13px" />
+
+        <RadioButton
+            android:id="@+id/rad5"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/rad4"
+            android:layout_alignBottom="@+id/rad4"
+            android:layout_toEndOf="@+id/rad4"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:drawablePadding="30dp"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:text="Button1"
+            android:textSize="13px" />
+
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/img_feliz"
+            android:layout_above="@+id/rad1"
+            android:layout_toStartOf="@+id/rad2" />
+
+        <ImageView
+            android:id="@+id/textView1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/rad2"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/img_feliz"
+            android:layout_toStartOf="@+id/rad3" />
+
+        <ImageView
+            android:id="@+id/textView2"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/rad3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/img_feliz" />
+
+        <ImageView
+            android:id="@+id/textView3"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:textAlignment="textStart"
+            app:srcCompat="@drawable/img_feliz"
+            android:layout_above="@+id/rad4"
+            android:layout_toStartOf="@+id/rad5" />
+
+        <ImageView
+            android:id="@+id/textView4"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/img_feliz"
+            android:layout_above="@+id/rad5"
+            android:layout_alignEnd="@+id/rad5" />
+
+    </RelativeLayout>
+</LinearLayout>

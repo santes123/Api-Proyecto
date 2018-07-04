@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.MainActivity" >
+    <item
+        android:id="@+id/ic_launcher"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/img_fondo"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Formularios"
+        android:visible="true" />
+    <item
+        android:id="@+id/about_us"
+        android:checkable="false"
+        android:enabled="true"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="About us"
+        android:visible="true" />
+    <item
+        android:id="@+id/how_to_play"
+        android:checkable="false"
+        android:enabled="true"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="How To Play"
+        android:visible="true" />
+</menu>

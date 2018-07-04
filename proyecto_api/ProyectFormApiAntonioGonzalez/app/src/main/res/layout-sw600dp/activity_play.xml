@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pumpun.proyectformapiantoniogonzalez.Activities.PlayActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hospital">
+
+        <Button
+            android:id="@+id/btn_level_1"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Level 1"
+            android:background="@drawable/boton_optimizado_final"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btn_level_2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/btn_level_1"
+            android:layout_below="@+id/btn_level_1"
+            android:text="level 2"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/boton_optimizado_final"/>
+
+        <Button
+            android:id="@+id/btn_level_3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/btn_level_2"
+            android:layout_below="@+id/btn_level_2"
+            android:text="level 3"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/boton_optimizado_final"/>
+
+        <Button
+            android:id="@+id/btn_level_4"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/btn_level_3"
+            android:layout_below="@+id/btn_level_3"
+            android:text="level 4"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/boton_optimizado_final"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_level_4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/boton_optimizado_final"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/btn_level_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="75dp"
+            android:gravity="center"
+            android:text="@string/formulario_text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/img_fondo"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

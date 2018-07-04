@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name"><center>Android Gravity Forms Project</center></string>
+    <string name="how_to_play"><b><u>Bsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdkajsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasdBsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdka
+        jsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasdBsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdkajsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasd</u></b></string>
+    <string name="about_us"><b><u>Bsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdkajsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasdBsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdka
+        jsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasdBsaddklasjdkajsdkajsdkajsdkjaksdjaksdjkasjdkajsdkaskdldasdasdasd.dsabdjkabsdjasjdnajsdnjasdna.dasdasdasd</u></b>
+    <br></br><a>Contactanos</a></string>
+    <string name="formulario_text"><b><u>Formularios a elegir :</u></b></string>
+    <string name="app_title"><b><u>Gravity Forms Project</u></b></string>
+    <string name="fin_app"><b><u> Formulario finalizado,<br></br>Gracias por enviarnos su información.</u></b></string>
+
+</resources>
